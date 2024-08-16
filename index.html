@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Number Counter</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h1>Number Counter</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="progress" role="progressbar" aria-label="Progress" aria-valuenow="0" aria-valuemin="0" aria-valuemax="150">
+                    <div class="progress-bar" style="width: 0%"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h2 id="number">0</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <button class="btn" id="subtract">-1</button>
+                <button class="btn" id="add">+1</button>
+            </div>
+           
+        </div>
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <button class="btn" id="undo">Undo</button>
+                <button class="btn" id="redo">Redo</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script src="script.js"></script>
+
+</html>
